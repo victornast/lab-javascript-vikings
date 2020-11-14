@@ -88,7 +88,7 @@ class War {
     }
     return result;
   }
-
+  //Bonus
   anAttack(attacker) {
     let randomSaxon = Math.floor(this.saxonArmy.length * Math.random());
     let randomViking = Math.floor(this.vikingArmy.length * Math.random());
